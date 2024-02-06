@@ -1,0 +1,27 @@
+header img.object-fit-cover {
+    filter: invert(20%) saturate(90%);
+}
+#text-quem-somos p {
+    text-align: justify;
+}
+#o-q-buscamos{
+    background-color: #33474d;
+    color: white;
+}
+#o-q-buscamos p, .card-text{
+    text-align: justify;
+}
+#o-q-buscamos p span {
+    font-weight: 900;
+}
+#modelos .row img {
+    height: 320px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #33474d;
+    color: white;
+    
+
+}

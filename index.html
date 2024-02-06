@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCasa</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+    <header >
+        <div id="carousel-background" class="carousel slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-background" data-bs-slide-to="0" class="active" arial-current="true" aria-label="Slide 1" ></button>
+                <button type="button" data-bs-target="#carousel-background" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-background" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/eco_casa.jpg" class="object-fit-cover vh-100 vw-100"  alt="casa do campo">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Casa em madeira</h5>
+                        <p>"Projeta sua casa sustentável. Viva em harmonia com a Natureza."</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/casa_pedra.jpg" class="object-fit-cover vh-100 vw-100" alt="casa de pedra">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Casa de Pedra</h5>
+                        <p>Durável</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/casa_pedra2.jpg" class="object-fit-cover vh-100 vw-100" alt="casa ao ar livre">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container d-felx align-items-center">
+                    <a class="navbar-brand d-flex align-items-start gap-1" href="#"><img src="img/icons/Logomark.svg" alt="logo"><h5>EcoCasa</h5></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark " tabindex="-1" id="menu" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header justify-content-end">
+                            <button type="button" class="btn-close btn-close-white " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body justify-content-end">
+                            <ul class="navbar-nav flex gap-3">
+                                <li class="nav-item active">
+                                    <a class="nav-link active" aria-current="page" href="#">Quem somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">O que buscamos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Modelos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section id="quem-somos" class="row gap-1 mt-3 pt-3">
+                <img src="img/quem-somos.jpg" class=" col col-md-7"/>
+                <div id="text-quem-somos" class="col col-md-4">
+                    <h2>Quem somos</h2>
+                    <p >Você sonha com uma casa que harmonize com a natureza, oferecendo conforto sem comprometer o meio ambiente? 
+                        Na EcoCasa, transformamos esse sonho em realidade. Construimos casas ecológicas que refletem o compromisso
+                        com a sustentabilidade e o bem-estar há mais de 20 anos.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <section id="o-q-buscamos" class=" mt-3 pt-2">
+            <div class="container">
+                <h2 class="mb-3">O que buscamos</h2>
+                <div class="row">
+                    <p class="col-12 col-sm-6 col-md-4"><span>Compromisso Ambiental:</span> Na EcoCasa, acreditamos em um futuro sustentável. 
+                        Nossas casas são projetadas e construídas com materiais ecológicos, 
+                        respeitando os recursos naturais e minimizando o impacto ambiental.
+                    </p>
+                    <p class="col-12 col-sm-6 col-md-4"><span>Eficiência Energética:</span> Reduza sua pegada de carbono com nossas soluções de eficiência energética.
+                        Utilizamos tecnologias inovadoras, como painéis solares e isolamento térmico avançado, para garantir 
+                        um ambiente confortável e sustentável.
+                    </p>
+                    <p class="col-12  col-sm-6 col-md-4">
+                        <span>Design Inteligente:</span> Nossos arquitetos e designers estão comprometidos em criar espaços que se integram 
+                        perfeitamente ao ambiente ao redor. O design inteligente maximiza a luz natural, promove a ventilação natural 
+                        e proporciona um estilo de vida ecologicamente equilibrado.
+                    </p>
+                    <p class="col-12  col-sm-6 col-md-4">
+                        <span>Materiais Sustentáveis:</span> Utilizamos materiais certificados e de baixo impacto ambiental em todas as etapas da construção. 
+                        Desde madeira proveniente de fontes sustentáveis até revestimentos reciclados, cada detalhe é cuidadosamente selecionado 
+                        para preservar a beleza do planeta.
+                    </p>
+                    <p class="col-12 col-sm-6 col-md-4">
+                        <span>Água Sustentável:</span> Nossas casas contam com sistemas de captação de água da chuva e soluções inovadoras de conservação hídrica, 
+                        contribuindo para a preservação desse recurso vital.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="modelos" class="mt-3">
+            <div class="container">
+                <h2>Modelos</h2>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="img/modelo_2.jpg" />
+                            <div class="card-body">
+                                <h5 class="card-title">Casa Sustentável Moderna: "EcoViva"</h5>
+                                <p class="card-text">
+                                    A "EcoViva" é uma casa moderna que combina design contemporâneo com tecnologias sustentáveis. Características notáveis 
+                                    incluem painéis solares integrados ao telhado, sistemas de ventilação natural e isolamento térmico avançado. Além disso, 
+                                    materiais de construção  de baixo impacto ambiental e 
+                                    uma planta aberta maximizam o uso da luz natural. Os jardins verticais e a coleta de água da 
+                                    chuva contribuem para um estilo de vida ecologicamente equilibrado
+                                </p>
+                                <a  class="btn btn-primary" href="#">Leia mais...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="img/modelo_3.jpg" />
+                            <div class="card-body">
+                                <h5 class="card-title">Casa Rústica Sustentável: "Natureza Viva"</h5>
+                                <p>
+                                    A "Natureza Viva" é uma casa que se integra perfeitamente ao ambiente natural ao seu redor. Construída com madeira de fontes sustentáveis, 
+                                    possui um telhado verde que proporciona isolamento adicional e promove a biodiversidade. Os sistemas de energia renovável, como turbinas eólicas de baixo impacto,
+                                    complementam a beleza rústica desta casa. Grandes janelas panorâmicas conectam os moradores à natureza, incentivando um estilo de vida consciente.
+                                </p>
+                                <a class="btn btn-primary" href="#">Leia mais...</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="img/modelo_1.jpg" />
+                            <div class="card-body">
+                                <h5 class="card-title">Casa Compacta Sustentável: "MiniEcoHabitat"</h5>
+                                <p>
+                                    Para aqueles que buscam uma pegada ecológica menor, apresentamos o "MiniEcoHabitat". Esta casa compacta é projetada para otimizar o uso de espaço,
+                                    incorporando design inteligente e eficiência energética. Com sistemas solares fotovoltaicos no telhado, isolamento avançado e aparelhos de baixo consumo energético,
+                                    o MiniEcoHabitat oferece todo o conforto de uma casa convencional, mas com um impacto ambiental significativamente reduzido.
+                                </p>
+                                <a class="btn btn-primary" href="#">Leia mais...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; Todos os direitos Reservados - 2024</p>
+        </div>
+    </footer>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery-3.7.1.min.js" ></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
